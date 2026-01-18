@@ -16,6 +16,44 @@ bno_seeding_pulse = {
     }
 }
 
+### Seeding
+
+on_guest_arrived_from_pool = {
+    on_actions = {
+        bno_story_initialization_pulse
+    }
+}
+
+on_birthday = {
+    on_actions = {
+        bno_story_initialization_pulse
+    }
+}
+
+on_join_court = {
+    on_actions = {
+        bno_story_initialization_pulse
+    }
+}
+
+on_title_gain = {
+    on_actions = {
+        bno_story_initialization_pulse
+    }
+}
+
+on_imprison = {
+    on_actions = {
+        bno_story_initialization_pulse
+    }
+}
+
+on_birth_child = {
+    on_actions = {
+        bno_story_initialization_pulse
+    }
+}
+
 bno_story_initialization_pulse = {
     trigger = {
         NOT = { owns_story_of_type = story_bno_maintenance }
@@ -63,6 +101,7 @@ bno_add_blood_trait_on_birth = {
             }
             scope:child = {
                 add_trait = bno_blood_4
+                give_average_blood_concentration_to_child = yes
             }
         }
         else_if = {
@@ -70,18 +109,21 @@ bno_add_blood_trait_on_birth = {
                 bno_average_blood_level >= 2.5
             }
             add_trait = bno_blood_3
+                give_average_blood_concentration_to_child = yes
         }
         else_if = {
             limit = {
                 bno_average_blood_level >= 1.5
             }
             add_trait = bno_blood_2
+                give_average_blood_concentration_to_child = yes
         }
         else_if = {
             limit = {
                 bno_average_blood_level >= 1
             }
             add_trait = bno_blood_1
+                give_average_blood_concentration_to_child = yes
         }
     }
 }

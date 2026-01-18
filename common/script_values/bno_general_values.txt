@@ -1,16 +1,36 @@
 ﻿bno_blood_level = {
-    switch = {
-        trigger = has_trait
-        bno_blood_1 = { value = 1 }
-        bno_blood_2 = { value = 2 }
-        bno_blood_3 = { value = 3 }
-        bno_blood_4 = { value = 4 }
-        fallback = { value = 0 }
-    }
+    value = var:bno_blood_concentration
 }
 
 bno_average_blood_level = {
     value = scope:mother.bno_blood_level
     add = scope:father.bno_blood_level
     divide = 2
+}
+
+bno_skin_color = {
+    value = bno_blood_level
+    divide = 4
+    subtract = { 0 1 }
+}
+
+#1 dick small 3
+#2 dick small 2
+#3 dick small 1
+#4 normal
+#5 dick big 1
+#6 dick big 2
+#7 dick big 3 
+
+bno_dick_size_level = {
+    value = var:bno_dick_size
+}
+
+bno_average_dick_size_level = {
+    value = real_father.bno_dick_size_level
+    add = mother.bno_dick_size_level
+    divide = 2
+    round = yes
+    min = 1
+    max = 7
 }

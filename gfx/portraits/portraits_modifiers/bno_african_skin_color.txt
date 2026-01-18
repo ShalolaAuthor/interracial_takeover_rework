@@ -1,0 +1,21 @@
+﻿bno_african_skin_color = {
+    usage = game
+    priority = 999
+    bno_african_skin_color = {
+        dna_modifiers = {
+            color = {
+                gene = skin_color
+                mode = modify
+                x = 0
+                y = bno_skin_color
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1
+                has_variable = bno_blood_concentration
+            }
+        }
+    }
+}
