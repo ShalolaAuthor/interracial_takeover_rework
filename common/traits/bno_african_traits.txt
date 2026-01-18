@@ -1,0 +1,111 @@
+﻿bno_bbc = {
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_bbc_desc_0
+            }
+            desc = bno_bbc_desc
+        }
+    }
+    same_opinion = 20
+    opposite_opinion = 20
+    general_opinion = -10
+
+    flag = carn_no_consequences_for_extramarital_sex_with_others
+    flag = carn_no_consequences_for_extramarital_sex_with_me
+    flag = bno_enables_bbc_sex_effects
+
+    genetic = yes
+    physical = yes
+    good = yes
+
+    birth = 0
+    random_creation = 0
+
+    ruler_designer_cost = 100
+}
+
+bno_blood_1 = {
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_blood_1_desc_0
+            }
+            desc = bno_blood_1_desc
+        }
+    }
+
+    general_opinion = -25
+	same_opinion = 25
+
+    physical = yes
+
+    group = bno_blood
+    level = 1
+    shown_in_ruler_designer = no
+}
+
+bno_blood_2 = {
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_blood_2_desc_0
+            }
+            desc = bno_blood_2_desc
+        }
+    }
+
+    general_opinion = -50
+	same_opinion = 50
+
+    physical = yes
+
+    group = bno_blood
+    level = 2
+    shown_in_ruler_designer = no
+}
+
+bno_blood_3 = {
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_blood_3_desc_0
+            }
+            desc = bno_blood_3_desc
+        }
+    }
+
+    general_opinion = -75
+	same_opinion = 75
+
+    physical = yes
+
+    group = bno_blood
+    level = 3
+    shown_in_ruler_designer = no
+}
+
+bno_blood_4 = {
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_blood_4_desc_0
+            }
+            desc = bno_blood_4_desc
+        }
+    }
+
+    general_opinion = -100
+	same_opinion = 100
+
+    physical = yes
+
+    group = bno_blood
+    level = 3
+    ruler_designer_cost = -50
+}
