@@ -1,0 +1,15 @@
+﻿story_bno_maintenance = {
+    #available variable on story_owner: story_bno_maintenance
+    on_setup = {
+        save_scope_as = story_bno_maintenance
+        story_owner = {
+            set_variable = {
+                name = story_bno_maintenance
+                value = scope:story_bno_maintenance
+            }
+            seed_african_trait_effect = yes
+            seed_dick_trait_effect = yes
+            seed_bbc_trait_effect = yes
+        }
+    }
+}

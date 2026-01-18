@@ -1,0 +1,13 @@
+﻿namespace = bno_character_initialization
+
+bno_character_initialization.0001 = {
+    scope = none
+    hidden = yes
+    immediate = {
+        every_living_character = {
+            trigger_event = {
+                on_action = bno_story_initialization_pulse
+            }
+        }
+    }
+}

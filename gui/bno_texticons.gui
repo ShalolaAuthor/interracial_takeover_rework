@@ -1,0 +1,9 @@
+﻿texticon = {
+    icon = bno
+    iconsize = {
+		texture = "gfx/interface/icons/bno_icon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

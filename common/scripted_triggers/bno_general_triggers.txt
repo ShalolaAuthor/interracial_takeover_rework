@@ -1,0 +1,34 @@
+﻿is_culture_african_trigger = {
+    OR = {
+        culture = culture:akan
+        culture = culture:kru
+        culture = culture:guan
+        culture = culture:east_bantu
+        culture = culture:kanuri
+        culture = culture:hausa
+        culture = culture:sao
+        culture = culture:nupe
+        culture = culture:sorko
+        culture = culture:gaw
+        culture = culture:mossi
+        culture = culture:serer
+        culture = culture:wolof
+        culture = culture:somali
+        culture = culture:afar
+        culture = culture:malinke
+        culture = culture:bobo
+        culture = culture:gur
+        culture = culture:marka
+        culture = culture:mel
+        culture = culture:yoruba
+        culture = culture:edo
+        culture = culture:igbo
+        culture = culture:ewe
+        ## Below not 100%
+        culture = culture:zaghawa
+        culture = culture:songhai
+        culture = culture:soninke
+        culture = culture:bozo
+        culture = culture:pulaar
+    }
+}

@@ -1,0 +1,16 @@
+﻿bno_blood_level = {
+    switch = {
+        trigger = has_trait
+        bno_blood_1 = { value = 1 }
+        bno_blood_2 = { value = 2 }
+        bno_blood_3 = { value = 3 }
+        bno_blood_4 = { value = 4 }
+        fallback = { value = 0 }
+    }
+}
+
+bno_average_blood_level = {
+    value = scope:mother.bno_blood_level
+    add = scope:father.bno_blood_level
+    divide = 2
+}

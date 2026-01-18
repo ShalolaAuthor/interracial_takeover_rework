@@ -1,0 +1,12 @@
+﻿bno_events_frequency = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_frequency_always
+
+	bno_frequency_always = {}
+	bno_frequency_common = {}
+	bno_frequency_rare = {}
+	bno_frequency_never = {}
+}

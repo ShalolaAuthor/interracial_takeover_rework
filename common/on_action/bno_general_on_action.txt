@@ -1,0 +1,87 @@
+﻿on_game_start_after_lobby = {
+    on_actions = {
+        bno_on_game_start_after_lobby
+    }
+}
+
+bno_on_game_start_after_lobby = {
+    on_actions = {
+        bno_seeding_pulse
+    }
+}
+
+bno_seeding_pulse = {
+    events = {
+        bno_character_initialization.0001
+    }
+}
+
+bno_story_initialization_pulse = {
+    trigger = {
+        NOT = { owns_story_of_type = story_bno_maintenance }
+    }
+    effect = {
+        create_story = story_bno_maintenance
+    }
+}
+
+### Birth
+
+# called for the newborn child
+# scope:child is the new born character
+# scope:mother is the pregnant mother
+# scope:father is the family father (not the biological)
+# scope:real_father is the biological father
+# scope:is_bastard, true if a known bastard
+on_birth_child = {
+    on_actions = {
+        bno_on_birth_child
+    }
+}
+
+bno_on_birth_child = {
+    on_actions = {
+        bno_add_blood_trait_on_birth
+    }
+}
+
+bno_add_blood_trait_on_birth = {
+    trigger = {
+        OR = {
+            scope:real_father = {
+                has_trait = bno_blood
+            }
+            scope:mother = {
+                has_trait = bno_blood
+            }
+        }
+    }
+    effect = {
+        if = {
+            limit = {
+                bno_average_blood_level >= 3.5
+            }
+            scope:child = {
+                add_trait = bno_blood_4
+            }
+        }
+        else_if = {
+            limit = {
+                bno_average_blood_level >= 2.5
+            }
+            add_trait = bno_blood_3
+        }
+        else_if = {
+            limit = {
+                bno_average_blood_level >= 1.5
+            }
+            add_trait = bno_blood_2
+        }
+        else_if = {
+            limit = {
+                bno_average_blood_level >= 1
+            }
+            add_trait = bno_blood_1
+        }
+    }
+}

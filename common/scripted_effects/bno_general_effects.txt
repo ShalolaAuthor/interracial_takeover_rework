@@ -1,0 +1,72 @@
+﻿seed_african_trait_effect = {
+    if = {
+        limit = {
+            is_culture_african_trigger = yes
+            age > 0
+        }
+        add_trait = bno_blood_4
+    }
+}
+
+seed_dick_trait_effect = {
+    if = {
+        limit = {
+            is_male = yes
+            carn_is_futa_trigger = yes
+        }
+        switch = {
+            trigger = has_trait
+            bno_blood_4 = {
+                random_list = {
+                    1 = { add_trait = dick_big_good_1 }
+                    2 = { add_trait = dick_big_good_2 }
+                    4 = { add_trait = dick_big_good_3 }
+                }
+            }
+            bno_blood_3 = {
+                random_list = {
+                    4 = { add_trait = dick_big_good_1 }
+                    1 = { add_trait = dick_big_good_2 }
+                    2 = { add_trait = dick_big_good_3 }
+                }
+            }
+            bno_blood_2 = {
+                random_list = {
+                    1 = { add_trait = dick_big_good_3 }
+                    2 = { add_trait = dick_small_bad_1 }
+                    4 = { add_trait = dick_big_good_2 }
+                    8 = { add_trait = dick_big_good_1 }
+                }
+            }
+            bno_blood_1 = {
+                random_list = {
+                    1 = { add_trait = dick_big_good_3 }
+                    2 = { add_trait = dick_small_bad_1 }
+                    4 = { add_trait = dick_small_bad_2 }
+                    8 = { add_trait = dick_big_good_1 }
+                    16 = { add_trait = dick_big_good_2 }
+                }
+            }
+            fallback = {
+                random_list = {
+                    1 = { add_trait = dick_big_good_3 }
+                    2 = { add_trait = dick_big_good_2 }
+                    4 = { add_trait = dick_big_good_1 }
+                    8 = { add_trait = dick_small_bad_3 }
+                    16 = { add_trait = dick_small_bad_2 }
+                    32 = { add_trait = dick_small_bad_1 }
+                }
+            }
+        }
+    }
+}
+
+seed_bbc_trait_effect = {
+    if = {
+        limit = {
+            has_trait = bno_blood_4
+            has_trait = dick_big_good_3
+        }
+        add_trait = bno_bbc
+    }
+}
