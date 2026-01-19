@@ -34,24 +34,28 @@ seed_dick_trait_depending_on_father_and_mother_effect = {
 seed_bno_dick_size_effect = {
     random_list = {
         820 = {
+            bno_blood_dick_size_debuff_modifier = yes
             set_variable = {
                 name = bno_dick_size
                 value = 4
             }
         }
         50 = {
+            bno_blood_dick_size_debuff_modifier = yes
             set_variable = {
                 name = bno_dick_size
                 value = 3
             }
         }
         25 = {
+            bno_blood_dick_size_debuff_modifier = yes
             set_variable = {
                 name = bno_dick_size
                 value = 2
             }
         }
         15 = {
+            bno_blood_dick_size_debuff_modifier = yes
             set_variable = {
                 name = bno_dick_size
                 value = 1

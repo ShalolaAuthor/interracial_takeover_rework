@@ -1,13 +1,29 @@
 ﻿bno_blood_dick_size_buff_modifier = {
     modifier = {
-        add = {
+        factor = {
             switch = {
                 trigger = has_trait
-                bno_blood_4 = { value = 125 }
-                bno_blood_3 = { value = 100 }
-                bno_blood_2 = { value = 50 }
-                bno_blood_1 = { value = 25 }
-                fallback = { value = -5 }
+                bno_blood_4 = { value = 12 }
+                bno_blood_3 = { value = 6 }
+                bno_blood_2 = { value = 3 }
+                bno_blood_1 = { value = 1.5 }
+                fallback = { value = 0.5 }
+            }
+        }
+        always = yes
+    }
+}
+
+bno_blood_dick_size_debuff_modifier = {
+    modifier = {
+        factor = {
+            switch = {
+                trigger = has_trait
+                bno_blood_4 = { value = 0.0625 }
+                bno_blood_3 = { value = 0.125 }
+                bno_blood_2 = { value = 0.25 }
+                bno_blood_1 = { value = 0.5 }
+                fallback = { value = 1.5 }
             }
         }
         always = yes
