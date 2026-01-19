@@ -125,6 +125,39 @@ seed_bbc_trait_effect = {
         }
         add_trait = bno_bbc
     }
+    else_if = {
+        limit = {
+            has_trait = bno_blood_3
+            has_trait = dick_big_good_3
+            NOT = { has_trait = bno_bbc }
+        }
+        random = {
+            chance = 75
+            add_trait = bno_bbc
+        }
+    }
+    else_if = {
+        limit = {
+            has_trait = bno_blood_2
+            has_trait = dick_big_good_3
+            NOT = { has_trait = bno_bbc }
+        }
+        random = {
+            chance = 50
+            add_trait = bno_bbc
+        }
+    }
+    else_if = {
+        limit = {
+            has_trait = bno_blood_1
+            has_trait = dick_big_good_3
+            NOT = { has_trait = bno_bbc }
+        }
+        random = {
+            chance = 25
+            add_trait = bno_bbc
+        }
+    }
 }
 
 make_bbc_inactive_for_non_futa_effect = {

@@ -17,5 +17,6 @@ bno_character_initialization.0002 = {
     immediate = {
         bno_seed_dick_traits_effect = yes
         bno_seed_tits_traits_effect = yes
+        carn_activate_gender_specific_dt_traits_effect = yes
     }
 }

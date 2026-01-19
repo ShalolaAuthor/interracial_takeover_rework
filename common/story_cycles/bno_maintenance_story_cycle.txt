@@ -10,7 +10,6 @@
             seed_african_trait_effect = yes
             seed_african_blood_concentration_effect = yes
             trigger_event = bno_character_initialization.0002
-            carn_activate_gender_specific_dt_traits_effect = yes
         }
     }
     on_owner_death = {
