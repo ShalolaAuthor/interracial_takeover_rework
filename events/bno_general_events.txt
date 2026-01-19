@@ -15,8 +15,7 @@ bno_character_initialization.0001 = {
 bno_character_initialization.0002 = {
     hidden = yes
     immediate = {
-        seed_dick_trait_depending_on_father_and_mother_effect = yes
-        seed_dick_trait_effect = yes
-        seed_bbc_trait_effect = yes
+        bno_seed_dick_traits_effect = yes
+        bno_seed_tits_traits_effect = yes
     }
 }

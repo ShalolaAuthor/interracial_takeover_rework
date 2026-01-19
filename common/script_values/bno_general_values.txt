@@ -14,14 +14,6 @@ bno_skin_color = {
     subtract = { 0 1 }
 }
 
-#1 dick small 3
-#2 dick small 2
-#3 dick small 1
-#4 normal
-#5 dick big 1
-#6 dick big 2
-#7 dick big 3 
-
 bno_dick_size_level = {
     value = var:bno_dick_size
 }
@@ -29,6 +21,19 @@ bno_dick_size_level = {
 bno_average_dick_size_level = {
     value = real_father.bno_dick_size_level
     add = mother.bno_dick_size_level
+    divide = 2
+    round = yes
+    min = 1
+    max = 7
+}
+
+bno_tits_size_level = {
+    value = var:bno_tits_size
+}
+
+bno_average_tits_size_level = {
+    value = real_father.bno_tits_size_level
+    add = mother.bno_tits_size_level
     divide = 2
     round = yes
     min = 1
