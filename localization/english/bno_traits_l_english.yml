@@ -1,25 +1,25 @@
 ﻿l_english:
 
-TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Suffers no [extramarital_sex|E] penalties when breeding or being bred outside marriage."  
-TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$Others suffer no [extramarital_sex|E] penalties when breeding with this character."  
-TRAIT_FLAG_DESC_bno_enables_bbc_sex_effects: "$EFFECT_LIST_BULLET$This character's sexual prowess can catalyze his own growth, unlocking latent potential and leading to permanent improvements in his capabilities."
+ TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Suffers no [extramarital_sex|E] penalties when breeding or being bred outside marriage."  
+ TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$Others suffer no [extramarital_sex|E] penalties when breeding with this character."  
+ TRAIT_FLAG_DESC_bno_enables_bbc_sex_effects: "$EFFECT_LIST_BULLET$This character's sexual prowess can catalyze his own growth, unlocking latent potential and leading to permanent improvements in his capabilities."
 
-trait_bno_bbc: "Big Black Cock"
-bno_bbc_desc_0: "Whispers speak of a monstrous endowment, a thick, heavy length of dark flesh that makes him a living legend. It is a physical truth so overwhelming it defines his presence before he ever speaks."
-bno_bbc_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s cock is a weapon of mass seduction and intimidation. It's not just big—it's a fat, intimidating, brutally potent piece of Black anatomy that dominates every sexual encounter and silently asserts his genetic superiority."
+ trait_bno_bbc: "Big Black Cock"
+ bno_bbc_desc_0: "Whispers speak of a monstrous endowment, a thick, heavy length of dark flesh that makes him a living legend. It is a physical truth so overwhelming it defines his presence before he ever speaks."
+ bno_bbc_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s cock is a weapon of mass seduction and intimidation. It's not just big—it's a fat, intimidating, brutally potent piece of Black anatomy that dominates every sexual encounter and silently asserts his genetic superiority."
 
-trait_bno_blood_1: "Barely Mixed"
-bno_blood_1_desc_0: "A faint, distant echo of a superior lineage. The blood runs thin and pale."
-bno_blood_1_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s heritage is a whisper, not a shout. Only the most discerning eye might catch a hint of a richer ancestry in their features, long diluted by generations of weaker stock."
+ trait_bno_blood_1: "Barely Mixed"
+ bno_blood_1_desc_0: "A faint, distant echo of a superior lineage. The blood runs thin and pale."
+ bno_blood_1_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s heritage is a whisper, not a shout. Only the most discerning eye might catch a hint of a richer ancestry in their features, long diluted by generations of weaker stock."
 
-trait_bno_blood_2: "Mixed"
-bno_blood_2_desc_0: "A clear, undeniable blend of two worlds, where the stronger blood struggles against the weaker."
-bno_blood_2_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a living testament to a pivotal union. The potent African blood within them is evident, but it wars with the pallid legacy of their other parent, creating a tension visible in their very being."
+ trait_bno_blood_2: "Mixed"
+ bno_blood_2_desc_0: "A clear, undeniable blend of two worlds, where the stronger blood struggles against the weaker."
+ bno_blood_2_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a living testament to a pivotal union. The potent African blood within them is evident, but it wars with the pallid legacy of their other parent, creating a tension visible in their very being."
 
-trait_bno_blood_3: "Mostly Black"
-bno_blood_3_desc_0: "The superior bloodline dominates. Generations of careful breeding have yielded a form where African supremacy is clearly expressed."
-bno_blood_3_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s appearance leaves little doubt. Through deliberate lineage, the deep, rich tones and robust features of their African forebears are prominent, a powerful physique that overshadows the last remnants of a weaker ancestry."
+ trait_bno_blood_3: "Mostly Black"
+ bno_blood_3_desc_0: "The superior bloodline dominates. Generations of careful breeding have yielded a form where African supremacy is clearly expressed."
+ bno_blood_3_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s appearance leaves little doubt. Through deliberate lineage, the deep, rich tones and robust features of their African forebears are prominent, a powerful physique that overshadows the last remnants of a weaker ancestry."
 
-trait_bno_blood_4: "Black"
-bno_blood_4_desc_0: "Pure, unadulterated African descent. A direct line to the continent's power, untouched by dilution."
-bno_blood_4_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the standard. Their skin, their features, their very essence speaks of an unbroken lineage back to the source of true human strength and vitality. They are not a variation; they are the archetype."
+ trait_bno_blood_4: "Black"
+ bno_blood_4_desc_0: "Pure, unadulterated African descent. A direct line to the continent's power, untouched by dilution."
+ bno_blood_4_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the standard. Their skin, their features, their very essence speaks of an unbroken lineage back to the source of true human strength and vitality. They are not a variation; they are the archetype."

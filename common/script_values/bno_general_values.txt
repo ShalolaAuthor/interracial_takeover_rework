@@ -11,7 +11,7 @@ bno_average_blood_level = {
 bno_skin_color = {
     value = bno_blood_level
     divide = 4
-    subtract = { 0 1 }
+    subtract = { 0 0.1 }
 }
 
 bno_dick_size_level = {

@@ -1,0 +1,16 @@
+﻿#Available Scopes: carn_sex_player, carn_sex_partner
+carn_on_sex_v2 = {
+    on_actions = {
+        bno_on_sex
+    }
+}
+
+bno_on_sex = {
+    on_actions = {
+
+    }
+}
+
+bno_hormones_on_sex = {
+    
+}

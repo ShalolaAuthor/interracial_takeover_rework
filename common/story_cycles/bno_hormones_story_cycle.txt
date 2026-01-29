@@ -1,0 +1,13 @@
+﻿story_bno_hormones = {
+    on_setup = {
+        bno_add_story_variable_effect = {
+            STORY = story_bno_hormones
+        }
+        story_owner = {
+            set_variable = {
+                name = bno_hormones
+                value = 100
+            }
+        }
+    }
+}

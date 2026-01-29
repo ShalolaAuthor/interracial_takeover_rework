@@ -52,25 +52,32 @@ seed_bno_dick_size_effect = {
                 value = 1
             }
         }
-        50 = {
+        49 = {
             bno_blood_dick_size_buff_modifier = yes
             set_variable = {
                 name = bno_dick_size
                 value = 5
             }
         }
-        25 = {
+        23 = {
             bno_blood_dick_size_buff_modifier = yes
             set_variable = {
                 name = bno_dick_size
                 value = 6
             }
         }
-        15 = {
+        13 = {
             bno_blood_dick_size_buff_modifier = yes
             set_variable = {
                 name = bno_dick_size
                 value = 7
+            }
+        }
+        5 = {
+            bno_blood_dick_size_buff_modifier = yes
+            set_variable = {
+                name = bno_dick_size
+                value = 8
             }
         }
     }
@@ -103,6 +110,7 @@ seed_dick_trait_effect = {
             5 = { add_trait = dick_big_good_1 }
             6 = { add_trait = dick_big_good_2 }
             7 = { add_trait = dick_big_good_3 }
+            8 = { add_trait = dick_big_good_4 }
         }
     }
 }
@@ -266,22 +274,28 @@ seed_bno_tits_size_effect = {
                 value = 1
             }
         }
-        50 = {
+        49 = {
             set_variable = {
                 name = bno_tits_size
                 value = 5
             }
         }
-        25 = {
+        23 = {
             set_variable = {
                 name = bno_tits_size
                 value = 6
             }
         }
-        15 = {
+        13 = {
             set_variable = {
                 name = bno_tits_size
                 value = 7
+            }
+        }
+        5 = {
+            set_variable = {
+                name = bno_tits_size
+                value = 8
             }
         }
     }
@@ -336,6 +350,7 @@ seed_tits_trait_effect = {
             5 = { add_trait = tits_big_good_1 }
             6 = { add_trait = tits_big_good_2 }
             7 = { add_trait = tits_big_good_3 }
+            8 = { add_trait = tits_big_good_4 }
         }
     }
 }
@@ -352,4 +367,14 @@ remove_tits_trait_effect = {
 bno_seed_tits_traits_effect = {
     seed_tits_trait_depending_on_father_and_mother_effect = yes
     seed_tits_trait_effect = yes
+}
+
+bno_add_story_variable_effect = {
+    save_scope_as = $STORY$
+    story_owner = {
+        set_variable = {
+            name = $STORY$
+            value = scope:$STORY$
+        }
+    }
 }

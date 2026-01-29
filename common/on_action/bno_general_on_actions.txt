@@ -108,22 +108,28 @@ bno_add_blood_trait_on_birth = {
             limit = {
                 bno_average_blood_level >= 2.5
             }
-            add_trait = bno_blood_3
+            scope:child = {
+                add_trait = bno_blood_3
                 give_average_blood_concentration_to_child = yes
+            }
         }
         else_if = {
             limit = {
                 bno_average_blood_level >= 1.5
             }
-            add_trait = bno_blood_2
+            scope:child = {
+                add_trait = bno_blood_2
                 give_average_blood_concentration_to_child = yes
+            }
         }
         else_if = {
             limit = {
                 bno_average_blood_level >= 1
             }
-            add_trait = bno_blood_1
+            scope:child = {
+                add_trait = bno_blood_1
                 give_average_blood_concentration_to_child = yes
+            }
         }
     }
 }

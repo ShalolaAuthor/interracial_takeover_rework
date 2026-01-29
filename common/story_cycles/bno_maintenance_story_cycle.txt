@@ -1,12 +1,10 @@
 ﻿story_bno_maintenance = {
     #available variable on story_owner: story_bno_maintenance, bno_blood_concentration, bno_dick_size, bno_tits_size
     on_setup = {
-        save_scope_as = story_bno_maintenance
+        bno_add_story_variable_effect = {
+            STORY = story_bno_maintenance
+        }
         story_owner = {
-            set_variable = {
-                name = story_bno_maintenance
-                value = scope:story_bno_maintenance
-            }
             seed_african_trait_effect = yes
             seed_african_blood_concentration_effect = yes
             trigger_event = bno_character_initialization.0002
