@@ -5,7 +5,7 @@
             STORY = story_bno_maintenance
         }
         story_owner = {
-            seed_african_trait_effect = yes
+            bno_seed_african_trait_effect = yes
             seed_african_blood_concentration_effect = yes
             trigger_event = bno_character_initialization.0002
         }

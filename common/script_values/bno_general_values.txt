@@ -24,7 +24,7 @@ bno_average_dick_size_level = {
     divide = 2
     round = yes
     min = 1
-    max = 7
+    max = 8
 }
 
 bno_tits_size_level = {
@@ -37,5 +37,18 @@ bno_average_tits_size_level = {
     divide = 2
     round = yes
     min = 1
-    max = 7
+    max = 8
+}
+
+bno_ass_size_level = {
+    value = var:bno_ass_size
+}
+
+bno_average_ass_size_level = {
+    value = real_father.bno_ass_size_level
+    add = mother.bno_ass_size_level
+    divide = 2
+    round = yes
+    min = 3
+    max = 8
 }
